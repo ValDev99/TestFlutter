@@ -10,10 +10,9 @@ class pageCo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Test Weo")),
-      // body: Center(
-      //   child: Text('Bienvenue sur votre espace de connexion Google !'),
-      // ),
       body: Center(
+        child: Text('Bienvenue sur votre espace de connexion Google !');
+      
         child: RaisedButton(
           onPressed: () {
             Navigator.push(
